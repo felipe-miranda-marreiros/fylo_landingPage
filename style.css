@@ -166,7 +166,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translate(-15%, -65%);
+  transform: translate(0, -90%);
   /*Not working*/
   /* z-index: -1; */
 }
