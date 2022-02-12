@@ -105,7 +105,7 @@ main {
   column-gap: 10rem;
   row-gap: 5rem;
   text-align: center;
-  padding: 5rem 0;
+  padding: 10rem 0;
 }
 .how-it-works__item {
   display: flex;
@@ -143,6 +143,11 @@ main {
   color: hsla(176, 68%, 64%, 0.863);
   display: flex;
   gap: 0.3rem;
+  transition: all 0.5s;
+}
+.productive-box-link:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
 }
 .testimonials-box {
   padding: 10rem 0 18rem;
